@@ -1,0 +1,21 @@
+body {
+  background-color: #000016;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.canvas-cont {
+  text-align: center;
+}
+.score-cont {
+  text-align: center;
+}
+#canvas {
+  background-color: #435452;
+}
+
+.button-restart {
+  height: 100px;
+  width: 300px;
+  font-size: large;
+}

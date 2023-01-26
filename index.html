@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>PongSquash</title>
+    <link rel="stylesheet" href="public/styles.css" />
+  </head>
+
+  <body>
+    <div class="canvas-cont">
+      <canvas id="canvas" width="600" height="300"></canvas>
+    </div>
+
+    <div class="score-cont">
+      <button class="button" type="button" onclick="startGame()">
+        Click to Play!
+      </button>
+      <h1 class="score"></h1>
+      <h2 class="maxScore"></h2>
+      <h1 class="speedCoef"></h1>
+      <button
+        class="button-restart"
+        type="button"
+        hidden="true"
+        onclick="tryAgain()"
+      >
+        Try Again?
+      </button>
+    </div>
+  </body>
+  <script type="text/javascript" src="strobe.js"></script>
+
+  <script type="text/javascript" src="ball.js"></script>
+  <script type="text/javascript" src="paddle.js"></script>
+  <script type="text/javascript" src="draw.js"></script>
+</html>
