@@ -1,1 +1,1 @@
-Pong Squash vesrion in good 'ol vanilla Js
+Pong Squash version in good 'ol vanilla Js
